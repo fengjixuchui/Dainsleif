@@ -40,9 +40,11 @@ You can easily support/motivate me by either **starring my project**, **followin
     - [ESP hack](#esp-hack)
     - [Trigger bot](#trigger-bot)
     - [Anti recoil](#anti-recoil)
+    - [Minimap hack](#minimap-hack)
     - [Anti AFK](#anti-afk)
     - [FOV](#fov)
-- [:busts_in_silhouette: Contributors](#busts_in_silhouette-Contributors)
+- [:put_litter_in_its_place: Uninstall](#put_litter_in_its_place-uninstall)
+- [:busts_in_silhouette: Contributors](#busts_in_silhouette-contributors)
 - [:hammer_and_wrench: Features being developed](#hammer_and_wrench-features-being-developed)
 
 # :syringe: How to build this hack
@@ -149,6 +151,12 @@ But this doesn't guarantee the 100% accuracy.
 
 ![Anti recoil](https://user-images.githubusercontent.com/33578715/89087634-769a5580-d3c7-11ea-83b1-dc31345e7424.png)
 
+## Minimap hack
+
+Minimap hack will show you all enemy positions on the mini map as a red dot even if they're not in your sight which would be super cool.
+
+![Minimap hack](https://user-images.githubusercontent.com/33578715/96349413-0c4da300-10e2-11eb-8ba9-b1965b1a7dfb.png)
+
 ## Anti AFK
 
 This feature basically make you move randomly every 50 seconds so that you probably not gonna get kicked automatically I guess.
@@ -156,6 +164,13 @@ This feature basically make you move randomly every 50 seconds so that you proba
 ## FOV
 
 You can change your field of view from 60 to 120 degrees.
+
+# :put_litter_in_its_place: Uninstall
+
+Since this cheat creates some setting files, u have to follow this to clear things up.
+
+All setting files are located at `C:\Users\Public\Documents\Dainsleif`, so delete this folder and you're good.
+Of course don't forget to delete exe file itself.
 
 # :busts_in_silhouette: Contributors
 

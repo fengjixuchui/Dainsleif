@@ -3,7 +3,7 @@
 ![Game](https://img.shields.io/badge/Game-CS%3AGO-blue.svg?style=flat)
 ![License](http://img.shields.io/badge/license-MIT-yellowgreen.svg?style=flat)
 
-[README in English](https://github.com/s3pt3mb3r/Dainsleif/blob/master/README.md)
+**[README in English](https://github.com/s3pt3mb3r/Dainsleif/blob/master/README.md)**
 
 ![Banner](https://user-images.githubusercontent.com/33578715/90953346-22056a00-e49d-11ea-9b63-56f33187e667.png)
 この絵は僕の親友である[@suzuharuR](https://twitter.com/suzuharuR)から頂いたものです。
@@ -29,11 +29,14 @@ Dainsleifは _Counter-Strike: Global Offensive_ 用のチートプログラム�
 - [:rotating_light: トラブルシューティング](#rotating_light-トラブルシューティング)
 - [:scroll: ハックメニュー](#scroll-ハックメニュー)
 - [:computer: ハック](#computer-ハック)
-    - [エイムボット](#エイムボット)
-    - [発光ハック](#発光ハック)
-    - [ESPハック](#ESPハック)
-    - [トリガーボット](#トリガーボット)
-    - [アンチリコイル](#アンチリコイル)
+    - [エイムボット](#エイムボットaimbot)
+    - [発光ハック](#発光ハックglow-hack)
+    - [ESPハック](#ESPハックesp)
+    - [トリガーボット](#トリガーボットtrigger-bot)
+    - [アンチリコイル](#アンチリコイルanti-recoil)
+    - [ミニマップハック](#ミニマップハックminimap-hack)
+    - [視野角調整](#視野角調整field-of-view)
+    - [アンチ放置キック](#アンチ放置キックanti-afk)
 - [:busts_in_silhouette: 共同開発者](#busts_in_silhouette-共同開発者)
 
 # :syringe: ビルド方法
@@ -139,6 +142,13 @@ Rangeの項目を変えると、エイムボットが反応する範囲を変え
 
 ![Anti recoil](https://user-images.githubusercontent.com/33578715/89087634-769a5580-d3c7-11ea-83b1-dc31345e7424.png)
 
+## ミニマップハック(Minimap hack)
+
+ミニマップハックは全ての敵をミニマップ上で赤点でとして表示してくれます。
+通常のCSGOなら赤点は敵がプレイヤーの視野内に入った場合のみに表示されますが、このハックを使うと視野の外の敵や壁越しの敵を赤点で表示することができます。
+
+![Minimap hack](https://user-images.githubusercontent.com/33578715/96349413-0c4da300-10e2-11eb-8ba9-b1965b1a7dfb.png)
+
 ## 視野角調整(Field of view)
 
 このハックでは、本来変更できないプレイヤーの視野角を60～120まで調整できるようにするものです。
@@ -146,6 +156,14 @@ Rangeの項目を変えると、エイムボットが反応する範囲を変え
 ## アンチ放置キック(Anti AFK)
 
 このハックをオンにすると、50秒ごとにプレイヤーを自動で動かすことによって放置キックされないようなります。
+
+# :busts_in_silhouette: アンインストール
+
+このチートは設定ファイルを生成するため、綺麗にアンインストールするには以下のフォルダを削除する必要があります。
+
+`C:\Users\Public\Documents\Dainsleif`
+
+もちろんexeファイル本体の削除もお忘れなく。
 
 # :busts_in_silhouette: 共同開発者
 
