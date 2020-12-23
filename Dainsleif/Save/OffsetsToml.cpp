@@ -97,7 +97,7 @@ void OffsetsToml::Update(std::string& filename)
             {"m_bDormant", 0xED},
             {"m_bSpotted", 0x93D},
             {"m_hActiveWeapon", 0x2EF8},
-            {"m_iItemDefinitionIndex", 0x2FAA}
+            {"m_iItemDefinitionIndex", 0x2FAA},
     };
 
     std::ofstream file;
@@ -111,21 +111,21 @@ void OffsetsToml::Update(std::string& filename)
 void OffsetsToml::Initialize(std::string& filename)
 {
     const toml::value data {
-            {"dwClientState", 0x58CFE4},
+            {"dwClientState", 0x58EFE4},
             {"dwClientState_State", 0x108},
-            {"dwForceBackward", 0x31838E8},
-            {"dwForceRight", 0x3183900},
-            {"dwForceForward", 0x3183954},
-            {"dwForceJump", 0x51FBFB8},
-            {"dwForceLeft", 0x31838DC},
-            {"dwViewMatrix", 0x4D43CC4},
+            {"dwForceBackward", 0x31D1188},
+            {"dwForceRight", 0x31D1104},
+            {"dwForceForward", 0x31D1194},
+            {"dwForceJump", 0x5249B34},
+            {"dwForceLeft", 0x31D1110},
+            {"dwViewMatrix", 0x4D914D4},
             {"dwClientState_MaxPlayer", 0x388},
-            {"dwClientState_ViewAngles", 0x4D88},
+            {"dwClientState_ViewAngles", 0x4D90},
             {"dwppDirect3DDevice9", 0xA7050},
-            {"dwEntityList", 0x4D523AC},
-            {"dwLocalPlayer", 0xD3DD14},
-            {"dwGlowObjectManager", 0x529A1E0},
-            {"dwForceAttack", 0x3183930},
+            {"dwEntityList", 0x4D9FBD4},
+            {"dwLocalPlayer", 0xD882BC},
+            {"dwGlowObjectManager", 0x52E81B0},
+            {"dwForceAttack", 0x31D1134},
             {"m_vecOrigin", 0x138},
             {"m_iHealth", 0x100},
             {"m_vecViewOffset", 0x108},
@@ -139,7 +139,7 @@ void OffsetsToml::Initialize(std::string& filename)
             {"m_bDormant", 0xED},
             {"m_bSpotted", 0x93D},
             {"m_hActiveWeapon", 0x2EF8},
-            {"m_iItemDefinitionIndex", 0x2FAA}
+            {"m_iItemDefinitionIndex", 0x2FAA},
     };
 
     std::ofstream file;

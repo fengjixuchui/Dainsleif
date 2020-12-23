@@ -4,7 +4,7 @@
 ![License](http://img.shields.io/badge/license-MIT-yellowgreen.svg?style=flat)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#busts_in_silhouette-Contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 **[日本語版README](https://github.com/s3pt3mb3r/Dainsleif/blob/master/README_jp.md)**
@@ -13,21 +13,21 @@
 Image's gifted by my big friend [@suzuharuR](https://twitter.com/suzuharuR)
 
 # :zap: Dainsleif
-First of all, if you are kind enough to motivate me, just **:star:star** this project :) I would be very happy.
+**Please :star:star this project, it'll be a huge help for me =)**
 
 This is an internal cheat for **_Counter-Strike: Global Offensive_** I've been working on as my training of reverse engineering.
 
 **Disclaimer**: Since I don't intend to make this a malicious software, this isn't considered to be performed in multi player mode. 
-**We won't take any responsibility if a problem occurs because of this software.** Keep in that mind.
+**We won't take any responsibility if a problem occurs because of this software.** Keep that in mind.
 
-As of today, Dainsleif is a quite simple and tiny cheat, so you can use this as your reference if you want.
+As of today, Dainsleif is a quite simple and tiny cheat, so it'll be easy to read and understand. This software is published as MIT license in addition.
 
 If you have any request or question, feel free to ask me through [issue](https://github.com/s3pt3mb3r/Dainsleif/issues).
-Please understand that it may take a certain days because I'm doing this as completely my hobby without profit or reward, you know? 
+Please understand that it may take a certain days because I'm doing this as completely my hobby without profit or reward, you know?
 
 # :two_hearts: Support me
 Any supports will be greatly appreciated. 
-You can easily support/motivate me by either **starring my project**, **following me on github** or **sending PR to me**.
+You can simply support me by either **starring my project**, **following me on github** or **sending PR to me**.
 
 # :pushpin: Table of contents
 
@@ -56,41 +56,24 @@ You can select from two ways to build this hack.
 I believe all you need in order to build this project except DirectxSDK is already included which is [MSDetour](https://github.com/microsoft/Detours), [ImGui](https://github.com/ocornut/imgui), and [toml11](https://github.com/ToruNiina/toml11).
 They're in Dependencies directory.
 
-**1. Build project using Cmake**
+**1. Build project using Visual Studio 2019**
 
-Run these commands below.
+If you have Visual Studio 2019, you must installed `Developer Command Prompt for Visual Studio` at the same time.
+Launch it and go to any directory you wanna clone Dainsleif in, and run following commands.
 
-```
-$ git clone https://github.com/s3pt3mb3r/Dainsleif.git
-$ cd Dainsleif
-$ mkdir build && cd build
-$ cmake ..
-$ make
-```
-
-Then your `Dainsleif.dll` should be in `/build` directory.
-
-**2. Build project using Visual Studio 2019**
-
-If you still have cmake, carry out following commands. (No? Then scroll down a bit)
-
-```
+```Shell
 $ git clone https://github.com/s3pt3mb3r/Dainsleif.git
 $ cd Dainsleif
 $ mkdir build && cd build
 $ cmake .. -A Win32
+$ cmake --build .
 ```
 
-You can find `Dainsleif.sln` in `/build` directory.
+After finished compiling, `Dainsleif.dll` will be in debug folder.
 
-Once you load the project click `Build` -> `Build Dainsleif`.
+**Once you get the `Dainsleif.dll`, you can now inject it to the game with any DLL injector such as [GH injector](https://guidedhacking.com/resources/guided-hacking-dll-injector.4/) :)**
 
-Then your `Dainsleif.dll` should be in `/build/Debug` directory.
-
-You reject to install cmake? Check [releases](https://github.com/s3pt3mb3r/Dainsleif/releases) and download relevant zip file.
-(If latest release looks old, create an issue and ask me, I'll handle it.)
-
-**Either way you get the `Dainsleif.dll`, you can now inject it to the game with any DLL injector such as [GH injector](https://guidedhacking.com/resources/guided-hacking-dll-injector.4/) :)**
+Needless to say, add `-insecure` flag in your launch option in order to taste this cheat without VAC scan.
 
 # :rotating_light: TROUBLE SHOOTING
 
@@ -98,7 +81,7 @@ You reject to install cmake? Check [releases](https://github.com/s3pt3mb3r/Dains
 
 # :scroll: Menu
 
-You're accessible to the hack menu by pressing <kbd>INSERT</kbd> key on your keyboard.
+You're accessible to the hack menu by pressing <kbd>INSERT</kbd> key on your keyboard. (While the menu is open, input to CSGO will be locked)
 
 You can toggle on/off and tweak parameters in the tabs with the name of each hack.
 
@@ -182,6 +165,7 @@ I couldn't have got this far without them ([emoji key](https://allcontributors.o
 <table>
   <tr>
     <td align="center"><a href="https://github.com/l1m0n3"><img src="https://avatars1.githubusercontent.com/u/13360351?v=4" width="100px;" alt=""/><br /><sub><b>L1m0n3</b></sub></a><br /><a href="https://github.com/s3pt3mb3r/Dainsleif/commits?author=l1m0n3" title="Code">💻</a> <a href="#maintenance-l1m0n3" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="https://github.com/tomsa000"><img src="https://avatars2.githubusercontent.com/u/45645938?v=4" width="100px;" alt=""/><br /><sub><b>tomsa</b></sub></a><br /><a href="https://github.com/s3pt3mb3r/Dainsleif/commits?author=tomsa000" title="Code">💻</a> <a href="https://github.com/s3pt3mb3r/Dainsleif/issues?q=author%3Atomsa000" title="Bug reports">🐛</a> <a href="#ideas-tomsa000" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
